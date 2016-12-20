@@ -1,0 +1,14 @@
+.hint {
+	display:none;
+	color:red;
+}
+#output{
+	float:right;
+	margin:40px;
+	padding:40px;
+	border:1px solid black;
+
+}
+#output::before{
+	content:"Calories(kcal):";
+}
